@@ -9,3 +9,6 @@ def find_length_n_words(n, board, words):
 
 def max_score_paths(board, words):
     pass
+
+def new_func():
+    pass
