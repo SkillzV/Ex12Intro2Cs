@@ -1,7 +1,7 @@
 import random
 
 
-BOARD_SIZE = 3
+BOARD_SIZE = 4
 
 LETTERS = [
     ['A', 'E', 'A', 'N', 'E', 'G'],
@@ -37,6 +37,8 @@ def randomize_board(dice_list=LETTERS):
         board.append(row)
     return board
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     from pprint import pprint
+
     pprint(randomize_board())
