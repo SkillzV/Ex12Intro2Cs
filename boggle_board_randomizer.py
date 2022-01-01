@@ -1,6 +1,7 @@
 import random
 
 BOARD_SIZE = 4
+
 LETTERS = [
     ['A', 'E', 'A', 'N', 'E', 'G'],
     ['A', 'H', 'S', 'P', 'C', 'O'],

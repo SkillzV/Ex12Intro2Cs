@@ -21,5 +21,6 @@ class Board:
         #                      DIAGONAL_RIGHT_DOWN]
 
     def shuffle_cubes(self):
+        pass
 
 
