@@ -1,6 +1,6 @@
 import random
 
-BOARD_SIZE = 4
+BOARD_SIZE = 5
 LETTERS = [
     ['A', 'E', 'A', 'N', 'E', 'G'],
     ['A', 'H', 'S', 'P', 'C', 'O'],
