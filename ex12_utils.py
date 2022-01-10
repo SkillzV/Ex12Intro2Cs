@@ -6,9 +6,7 @@
 # STUDENTS I DISCUSSED WITH:
 # DESCRIPTION: a file containing four requested functions
 #############################################################
-import copy
 import boggle_board_randomizer as bbr
-from cube import Cube
 from typing import List, Tuple, Dict, Any, Set
 
 START = (0, 0)
@@ -93,10 +91,6 @@ def filter_words_by_length(words, n, count_longer: bool):
 
     return {w for w in words if (len(w) == n and not count_longer) \
             or (len(w) >= n and count_longer)}
-
-
-def isPalindrome(s):
-    return s == s[::-1]
 
 
 def find_length_n_paths(n, board, words):
